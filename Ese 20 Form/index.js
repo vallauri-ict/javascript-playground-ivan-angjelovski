@@ -61,7 +61,7 @@ function validaForm(){
 	}
 	else
 	{
-		window.open("index2.html");
+		alert("Registrazione Completata");
 	}
 }
 
