@@ -1,0 +1,118 @@
+* {
+  scroll-behavior: smooth;
+}
+
+
+/* progress backgrounds */
+.bg-html5 {
+  background: #f16529;
+}
+
+.bg-css3 {
+  background: #29a9df;
+}
+
+.bg-js {
+  background: #f89c35;
+}
+
+.bg-csharp {
+  background: #822c98;  
+}
+
+.bg-c {
+  background: #3949ab;
+}
+
+.progress {
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+
+/* typewriter effect */
+.line {
+      position: relative;
+      top: 50%;
+      width: 14ch;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 180%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+	  transform: translateY(-50%);
+}
+
+.anim-typewriter {
+      animation: typewriter 3s steps(14) 1s 1 normal both,
+      blinkTextCursor 1000ms steps(16) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 14ch;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+
+
+/* scrollbar */
+::-webkit-scrollbar { 
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1abc9c;  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2c3e50; 
+}
+
+
+/* contact form */
+.footer-form input,
+.footer-form textarea,
+.footer-form button {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 2px;
+  color: white;
+  background: #1a252f;
+  border: none;
+  border-radius: 3px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.footer-form textarea {
+  resize: none;
+}
+
+.footer-form {
+  box-sizing: content-box;
+}
+
+.footer-form button {
+  background: #1abc9c;
+  width: 100px;
+  margin-left: 150px;
+}
+
+.footer-form button:hover {
+  cursor: pointer;
+}
